@@ -237,7 +237,8 @@ const styles = StyleSheet.create({
   },
   circle: {
     position: 'absolute',
-    top: 0,
-    left: 163,
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%,-50%)'
   }
 });
